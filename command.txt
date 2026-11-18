@@ -1,0 +1,5 @@
+php scann2.php \
+  --path="/caminho/do/projeto" \
+  --exclude=vendor,node_modules,...git \
+  --out=saida.json \
+  --taint-only
